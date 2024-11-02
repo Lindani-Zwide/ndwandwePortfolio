@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soft_folio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/5f2ca4f81a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <audio autoplay loop>
+      <source src="/FridayTooFar.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>    
+    <div class="star-rating">
+      <button class="star">&#9734</button>
+      <button class="star">&#9734</button>
+      <button class="star">&#9734</button>
+      <button class="star">&#9734</button>
+      <button class="star">&#9734</button>
+      <p id="starQ">RATE YOUR EXPERIENCE:</p>
+      <p class="responce"></p>
+    </div>      
+    <!--Header for the navigation bar-->
+    <header class="header">
+      <a href="#home" class="logo">
+          Lindani <span>Ndwandwe</span>
+      </a>
+      <div id="emj">
+        <p id="imoji">👨🏿‍💻</p>
+      </div>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <!--<i class="fa fa-bars" id="menu-icon" aria-hidden="true"></i>-->
+      <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!--Home section-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, it's <span>Lindani</span></h1>
+        <h3>I'm a <span>Professional Website Developer</span></h3>
+        <p id="typewriter" class="typewriterParagraph"></p>
+      </div>
+      <!--Social icons-->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/lindani-mthembu-4a4446318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> <!--Linkedin icon-->
+        </a>
+        <a href="https://wa.me/qr/ZM2FUOEMSG7QF1" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i> <!--Whatsapp icon-->
+        </a>
+        <a href="https://github.com/Lindani-Zwide" target="_blank">
+          <i class="fa-brands fa-github"></i> <!--Github icon-->
+        </a>
+        <a href="https://x.com/Ndwandwe_L06" target="_blank" >
+          <i class="fa-brands fa-x-twitter"></i> <!--X-Twitter icon-->
+        </a>
+        <a href="https://www.threads.net/@lindani__ndwandwe" target="_blank">
+          <i class="fa-brands fa-threads"></i> <!--i-Threads icon-->
+        </a>
+      </div>
+      <div class="btn-group">
+        <a href="https://www.linkedin.com/in/lindani-mthembu-4a4446318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="btn">Hire</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+      <div class="home-img">
+        <img src="/myPhoto.jpeg" alt=""/>
+      </div>
+      <p class="aspEngine">-ASPIRING SOFTWARE ENGINEER-</p>
+    </section> 
+    <!--About section-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="/myPhoto.jpeg" alt=""/>
+        <p class="aspEngine">-ASPIRING SOFTWARE ENGINEER-</p>
+      </div>
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+          <p>
+            I'm a passionate front-end web developer and mathematics
+            and science tutor with a drive to create innovative digital
+            solutions and empower students to succeed in STEM fields.
+          </p>
+          <a href="#">Read more</a> <!--Object of the buttons class-->
+      </div>
+    </section>
+    <!--Services section-->
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-infor">
+            <i class="fa fa-globe" aria-hidden="true"></i> <!--Whatsapp icon-->
+            <h4>Web-development</h4>
+            <div class="serv-img">
+              <img src="/loginPic.png" alt=""/>
+            </div>
+            <p>
+              <h2>Builds,maintains and optimizes websites</h2>
+              <h2>:HTML5,CSS3,JAVASCRIPT,ANGULAR,and MORE</h2>
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-infor">
+            <i class="fa-solid fa-person-chalkboard"></i> <!--Whatsapp icon-->
+            <h4>Math and Science tutoring</h4>
+            <div class="serv-img">
+              <img src="/tutorPic.png" alt=""/>
+            </div>
+            <p>
+              <h2>Private tutoring sessions(online/offline)</h2>
+              <h2>IEB,CAPS and personalized</h2>
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-infor">
+            <i class="fa fa-terminal" aria-hidden="true"></i> <!--Whatsapp icon-->
+            <h4>Computer Programming</h4>
+            <div class="serv-img">
+              <img src="/Programming.png" alt=""/>
+            </div>
+            <h2><b>SOFTWARE DEVELOPMENT :</b></h2>
+            <h2>-Java, C++, and Python applications</h2>
+            <h2>-Data Structures and Algorithms(DSA)</h2>
+            <h2>-Object-Oriented Programming(OOP)</h2>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-infor">
+            <i class="fa fa-question-circle" aria-hidden="true"></i> <!--Whatsapp icon -->
+            <h4>Digital Solutions and Consulting<h4>            </h4>
+            <div class="serv-img">
+              <img src="/digiSol.png" alt=""/>
+            </div>
+          </div>
+          <h2>-IT consulting services</h2>
+          <h2>-Digital strategy development</h2>
+          <h2>-Technical support and troubleshooting</h2>
+          <h2>-Technology integration(e.g., APIs, third-party services)</h2>
+        </div>
+      </div>
+    </section>
+    <!--Contact section-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>me</span></h2>
+      <form action="">
+        <div class="input-group1">
+          <div class="input-box">
+            <input type="text" placeholder="Full name">
+            <input type="email" placeholder="Email">
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Phone">
+            <input type="text" placeholder="Subject">
+          </div>
+        </div>
+        <div class="input-group2">
+          <textarea name=" " id="" cols="30" rows="10" placeholder="Your message"></textarea>
+          <input type="submit" value="Send message" class="btn">
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/lindani-mthembu-4a4446318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> <!--Linkedin icon-->
+        </a>
+        <a href="https://wa.me/qr/ZM2FUOEMSG7QF1" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i> <!--Whatsapp icon-->
+        </a>
+        <a href="https://github.com/Lindani-Zwide" target="_blank">
+          <i class="fa-brands fa-github"></i> <!--Github icon-->
+        </a>
+        <a href="https://x.com/Ndwandwe_L06" target="_blank" >
+          <i class="fa-brands fa-x-twitter"></i> <!--X-Twitter icon-->
+        </a>
+        <a href="https://www.threads.net/@lindani__ndwandwe" target="_blank">
+          <i class="fa-brands fa-threads"></i> <!--i-Threads icon-->
+        </a>
+      </div>
+      <ul class="list">
+        <li>
+          <a href="#">-FAQ-</a>
+        </li>
+        <li>
+          <a href="#services">-Services-</a>
+        </li>
+        <li>
+          <a href="#about">-About-</a>
+        </li>
+        <li>
+          <a href="#contact">-Contact-</a>
+        </li>
+      </ul>
+      <p class="copyright">
+        Copyright © 2024 Ichunu Ndwandwe| All rights reserved
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
