@@ -8,7 +8,14 @@ menuIcon.addEventListener('click', () => {
   menuIcon.classList.toggle('fa-xmark');
   navBar.classList.toggle('active');
 });
-
+const navLinks = document.querySelectorAll('.navbar a');
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navBar.classList.toggle('active');
+    menuIcon.classList.toggle('fa-bars');
+    menuIcon.classList.toggle('fa-xmark');
+  });
+});
 //Five star rating
 const allStars=document.querySelectorAll('.star');
       let currentRating=document.querySelector('.responce');
@@ -53,5 +60,3 @@ const allStars=document.querySelectorAll('.star');
         }
       }
 type();
-
-
