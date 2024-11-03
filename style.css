@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -108,20 +108,25 @@ span{
   color: var(--main-color);
 }
 .star-rating{
-  position: fixed;
-  padding-top: 120px;
-  padding-left: 5px;
   user-select: none;
-  opacity: 0.6;
+  opacity: 1;
+  position: absolute;
+  margin-left: 1rem;
+  padding-left: 6rem;
+}
+.starQ H2{
+  color: orange;
 }
 .star{
   font-size:30px;
-  color:blueviolet;
+  color: orange;
   background-color: unset;
   border:none;
 }
 .star:hover{
   cursor: pointer;
+  color:blue;
+  font-size: 35px;
 }
 .responce{
   font-size: 17px;
@@ -438,6 +443,7 @@ span{
 }
 .footer .social-icons{
   text-align: center;
+  margin-top: 100px;
 }
 .footer ul{
   text-align: center;
@@ -512,5 +518,5 @@ span{
   .contact form{
     flex-direction: column;
   }
-
+  
 }
