@@ -354,7 +354,6 @@ span{
   justify-content: center;
   background: linear-gradient(to right, #1e1922, #000f0c);
   min-height: 400px;
-  border-radius: 3rem;
   cursor: pointer;
   border: 1px solid orange;
   transition: 0s ease-in-out;
@@ -375,7 +374,6 @@ span{
 /* Hover effect with complementary colors */
 .service-box:hover {
   color: #f1f1f1; /* Light color for contrast */
-  border: 3px solid white; /* Deep blue for the border */
   transform: scale(1.036);
   opacity: 0.7;
 }
