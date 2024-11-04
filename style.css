@@ -518,5 +518,8 @@ span{
   .contact form{
     flex-direction: column;
   }
+  .responce{
+    font-size: small;
+  }
   
 }
