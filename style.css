@@ -210,8 +210,6 @@ span{
   font-size: 4rem;
   padding: 1rem;
   background: transparent;
-  border: 2px solid blue;
-  border-radius: 50%;
   color: var(--main-color);
   transition: 0.3s ease;
 }
@@ -450,7 +448,7 @@ span{
 .footer ul li {
   display: inline-block;
   margin-top: 15px;
-  margin-right: 30px; /* Add space between list elements */
+  margin-right: 1rem;
 }
 .footer ul li a{
   color: whitesmoke;
