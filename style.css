@@ -166,7 +166,7 @@ span{
 .home-content h1 {
   font-size: 4rem;
   font-weight: 700;
-  margin-top: 1.5rem;
+  margin-top: -50px;
   line-height: 1.2;
 }
 .home-content h3 {
