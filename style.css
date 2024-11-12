@@ -516,5 +516,7 @@ span{
   .responce{
     font-size: 12px;
   }
-  
 }
+  #readMoreBtn{
+    margin-top: 1.4rem;
+  }
