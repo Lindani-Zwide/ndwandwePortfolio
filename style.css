@@ -32,7 +32,6 @@ body{
   left:0;
   padding:4rem 12%;
   background: black;
-  backdrop-filter: blur(16px); /*For the glass effect of the background*/
   display:flex;
   justify-content: space-between;
   align-items: center;
