@@ -37,7 +37,7 @@ body{
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  opacity: 0.8;
+  opacity: 1;
 }
 .header::before {
   content: '';
