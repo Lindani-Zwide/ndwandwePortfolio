@@ -38,26 +38,6 @@ body{
   z-index: 100;
   opacity: 1;
 }
-.header::before {
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  background: linear-gradient(90deg,blue, #0f3,red,rgb(118, 47, 80), #f00, #0ff,black, #00f);
-  background-size: 400% 400%;
-  animation: gradient-animation 7s ease infinite;
-  z-index: -1;
-  filter: blur(8px);
-  mix-blend-mode: overlay;
-}
-
-@keyframes gradient-animation {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
 .aspEngine{
   font-size: 15px;
   text-align: center;
