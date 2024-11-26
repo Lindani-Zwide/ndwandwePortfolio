@@ -124,7 +124,6 @@ span{
 .star:hover{
   cursor: pointer;
   color:blue;
-  font-size: 35px;
 }
 .responce{
   font-size: 17px;
