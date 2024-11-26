@@ -210,11 +210,13 @@ span{
   background: transparent;
   color: var(--main-color);
   transition: 0.3s ease;
+  border-radius: 50%;
 }
 .social-icons a:hover {
   color: var(--text-color);
   transform: scale(1.2) translateY(-5px);
   box-shadow: 0 0 25px blue;
+  
 }
 /* Button group styling */
 .btn-group {
