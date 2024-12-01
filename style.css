@@ -6,7 +6,6 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: 'Courier New', Courier, monospace;
 }
 html {
   font-size: 60%;
@@ -23,6 +22,7 @@ html {
 body{
   background: var(--bg-color);
   color: var(--text-color);
+  font-family: Arial, sans-serif;
 }
 .header{
   position:fixed;
